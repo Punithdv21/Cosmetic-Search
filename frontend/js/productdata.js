@@ -13,7 +13,7 @@ const mockProductData = [
         rating: 4.4,
         category: "skincare,haircare",
         description: "A deep moisture nourishing body cream that provides hydration.",
-        image: "frontend/assets/images/id1.jpg",
+        image: "./assets/images/id1.jpg",
         ingredients: "Water, Mineral oil, Glycerin",
         shades: null,
         reviews: [
@@ -61,7 +61,7 @@ const mockProductData = [
         rating: 3.9,
         category: "haircare",
         description: "A gentle shampoo that revitalizes your hair.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id3.jpg",
         ingredients: "Tea Tree Oil, Keratin",
         shades: null,
         reviews: [
@@ -80,7 +80,7 @@ const mockProductData = [
         rating: 4.3,
         category: "skincare",
         description: "Provides silky smooth skin with long-lasting hydration.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id5.jpg",
         ingredients: "Cocoa Butter, Almond Oil",
         shades: null,
         reviews: [
@@ -99,7 +99,7 @@ const mockProductData = [
         rating: 5,
         category: "makeup",
         description: "Lightweight foundation with full coverage.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id6.jpg",
         ingredients: "Hyaluronic Acid, Mineral Pigments",
         shades: ["Fair", "Medium", "Tan", "Deep"],
         reviews: [
@@ -123,7 +123,7 @@ const mockProductData = [
         rating: 3.8,
         category: "fragrances",
         description: "An exotic perfume with floral and woody notes.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id7.jpg",
         ingredients: "Ethyl alcohol, Aqua ",
         shades: null,
         reviews: [
