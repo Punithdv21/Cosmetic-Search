@@ -19,8 +19,6 @@ function displayHeroImages(images) {
         imgElement.src = imageSrc;
         imgElement.alt = `Hero Image ${index + 1}`;
         imgElement.className = 'carousel-image';
-
-        // Append each image to the carousel container
         imageCarousel.appendChild(imgElement);
     });
 
@@ -30,45 +28,46 @@ function displayHeroImages(images) {
     let carouselInterval;
 
     // Function to change the active image
-    function changeImage() {
+    function changeImage(newIndex = currentIndex) {
         carouselImages.forEach((img, index) => {
-            img.classList.remove('active'); // Remove the active class from all images
+            img.classList.toggle('active', index === newIndex); // Toggle 'active' class
         });
-        carouselImages[currentIndex].classList.add('active'); // Add active class to the current image
-        currentIndex = (currentIndex + 1) % carouselImages.length; // Loop back to the first image after the last one
+        currentIndex = newIndex;
     }
 
-    // Create navigation buttons
-    const prevButton = document.createElement('button');
-    const nextButton = document.createElement('button');
-    
-    imageCarousel.parentElement.appendChild(prevButton);
-    imageCarousel.parentElement.appendChild(nextButton);
-
-    // Previous button functionality
-    prevButton.addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + carouselImages.length) % carouselImages.length;
-        changeImage();
-    });
-
-    // Next button functionality
-    nextButton.addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % carouselImages.length;
-        changeImage();
-    });
-
-    // Pause on hover
-    imageCarousel.addEventListener('mouseover', () => clearInterval(carouselInterval));
-    imageCarousel.addEventListener('mouseout', () => {
-        carouselInterval = setInterval(changeImage, intervalTime);
-    });
-
     // Start the carousel
-    carouselInterval = setInterval(changeImage, intervalTime);
+    function startCarousel() {
+        carouselInterval = setInterval(() => {
+            const nextIndex = (currentIndex + 1) % carouselImages.length;
+            changeImage(nextIndex);
+        }, intervalTime);
+    }
 
-    // Initialize the first image to be visible
-    changeImage();
+    // Stop the carousel
+    function stopCarousel() {
+        clearInterval(carouselInterval);
+    }
+
+    // Attach event listeners for navigation buttons
+    document.getElementById('prev-button').addEventListener('click', () => {
+        const prevIndex = (currentIndex - 1 + carouselImages.length) % carouselImages.length;
+        changeImage(prevIndex);
+    });
+
+    document.getElementById('next-button').addEventListener('click', () => {
+        const nextIndex = (currentIndex + 1) % carouselImages.length;
+        changeImage(nextIndex);
+    });
+
+    // Pause and resume on hover
+    imageCarousel.addEventListener('mouseover', stopCarousel);
+    imageCarousel.addEventListener('mouseout', startCarousel);
+
+    // Initialize the first image and start carousel
+    changeImage(0);
+    startCarousel();
 }
+
 
 // Display products in the grid
 function displayProducts(products) {
