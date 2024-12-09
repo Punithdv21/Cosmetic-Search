@@ -37,7 +37,7 @@ const mockProductData = [
         rating: 2.9,
         category: "makeup",
         description: "Light weight and moisturising,Buildable and flawless coverage.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id2.jpg",
         ingredients: "Almond oil,jojoba oil,Glycerin",
         shades: ["Dewy"],
         reviews: [
