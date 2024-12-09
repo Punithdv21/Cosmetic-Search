@@ -80,7 +80,7 @@ const mockProductData = [
         rating: 4.3,
         category: "skincare",
         description: "Provides silky smooth skin with long-lasting hydration.",
-        image: "./assets/images/id5.jpg",
+        image: "./assets/images/id4.jpg",
         ingredients: "Cocoa Butter, Almond Oil",
         shades: null,
         reviews: [
@@ -99,7 +99,7 @@ const mockProductData = [
         rating: 5,
         category: "makeup",
         description: "Lightweight foundation with full coverage.",
-        image: "./assets/images/id6.jpg",
+        image: "./assets/images/id5.jpg",
         ingredients: "Hyaluronic Acid, Mineral Pigments",
         shades: ["Fair", "Medium", "Tan", "Deep"],
         reviews: [
@@ -123,7 +123,7 @@ const mockProductData = [
         rating: 3.8,
         category: "fragrances",
         description: "An exotic perfume with floral and woody notes.",
-        image: "./assets/images/id7.jpg",
+        image: "./assets/images/id6.jpg",
         ingredients: "Ethyl alcohol, Aqua ",
         shades: null,
         reviews: [
@@ -142,7 +142,7 @@ const mockProductData = [
         rating: 4,
         category: "skincare",
         description: "Nourishes dry hands with a non-greasy formula.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id7.jpg",
         ingredients: "Jojoba Oil, vanilla,Glycerin",
         shades: ["vanilla"],
         reviews: [
@@ -161,7 +161,7 @@ const mockProductData = [
         rating: 4.0,
         category: "makeup",
         description: "Creates dramatic lashes with a smudge-proof formula.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id8.jpg",
         ingredients: "Silica, Vitamin B5",
         shades: ["Black"],
         reviews: [
@@ -180,7 +180,7 @@ const mockProductData = [
         rating: 4.2,
         category: "haircare",
         description: "Deeply repairs damaged hair and restores shine.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id9.jpg",
         ingredients: "Argan Oil, Biotin",
         shades: null,
         reviews: [
@@ -199,7 +199,7 @@ const mockProductData = [
         rating: 4.2,
         category: "makeup",
         description: "Absorbs excess oil and provides a matte finish.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id10.jpg",
         ingredients: "Talc, Zinc Oxide",
         shades: ["Light", "Medium", "Dark"],
         reviews: [
@@ -218,7 +218,7 @@ const mockProductData = [
         rating: 4.0,
         category: "makeup",
         description: "Absorbs excess oil and provides a matte finish.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id11.jpg",
         ingredients: "Talc, Zinc Oxide",
         shades: ["Light", "Medium", "Dark"],
         reviews: [
@@ -238,7 +238,7 @@ const mockProductData = [
         rating: 4.1,
         category: "makeup",
         description: "Absorbs excess oil and provides a matte finish.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id12.jpg",
         ingredients: "Talc, Zinc Oxide",
         shades: ["BB glow", "Pink"],
         reviews: [
@@ -257,7 +257,7 @@ const mockProductData = [
         rating: 4.1,
         category: "makeup",
         description: "Long-lasting lipstick with a smooth finish.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id13.jpg",
         ingredients: "Natural Oils, Vitamin C",
         shades: ["660 touch of spice", "Nude Nuance", "Coral Crush"],
         reviews: [
@@ -281,7 +281,7 @@ const mockProductData = [
         rating: 3.6,
         category: "makeup",
         description: "Long-lasting lipstick with a smooth finish.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id14.jpg",
         ingredients: "Natural Oils, Vitamin C",
         shades: ["Molten Pink", "Nude Nuance", "21 Romance"],
         reviews: [
@@ -305,7 +305,7 @@ const mockProductData = [
         rating: 4.6,
         category: "makeup",
         description: "Long-lasting lipstick with a smooth finish.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id15.jpg",
         ingredients: "Natural Oils, Vitamin C",
         shades: ["660 touch of spice", "Nude Nuance", "Coral Crush"],
         reviews: [
@@ -329,7 +329,7 @@ const mockProductData = [
         rating: 3.8,
         category: "makeup",
         description: "Long-lasting lipstick with a smooth finish.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id16.jpg",
         ingredients: "Natural Oils, Vitamin C",
         shades: ["Rose nude", "Pink rose", "Coral Crush"],
         reviews: [
@@ -352,7 +352,7 @@ const mockProductData = [
         rating: 4.6,
         category: "makeup",
         description: "Long-lasting lipstick with a smooth finish.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id17.jpg",
         ingredients: "Natural Oils, Vitamin C",
         shades: ["Madness PH stick"],
         reviews: [
