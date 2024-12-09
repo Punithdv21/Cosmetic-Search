@@ -300,6 +300,7 @@ body {
 
 .list-view .product-card img:hover {
     transform: scale(1.05);
+  
 }
 
 .list-view .product-card-content {

@@ -548,7 +548,7 @@ const mockProductData = [
         rating: 3.8,
         category: "haircare",
         description: "Moisturize ,hydrate, curl defines ,reduces frizz.",
-        image: "./assets/images/id27.jpg0",
+        image: "./assets/images/id27.jpg",
         ingredients: "Silicon,No sulphate,paraben",
         shades: null,
         reviews: [
