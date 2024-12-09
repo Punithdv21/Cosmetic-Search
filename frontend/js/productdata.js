@@ -375,7 +375,7 @@ const mockProductData = [
         rating: 5.0,
         category: "makeup",
         description: "Long-lasting lipstick with a smooth finish.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id18.jpg",
         ingredients: "Natural Oils, Vitamin C",
         shades: ["Madness PH stick"],
         reviews: [
@@ -398,7 +398,7 @@ const mockProductData = [
         rating: 5.0,
         category: "makeup",
         description: "Long-lasting lipstick with a smooth finish.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id19.jpg",
         ingredients: "Natural Oils, Vitamin C",
         shades: ["Pink","Peach","Red pop"],
         reviews: [
@@ -422,7 +422,7 @@ const mockProductData = [
         rating: 2.8,
         category: "fragrances",
         description: "An exotic perfume with floral and woody notes.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id20.jpg",
         ingredients: "Ethyl alcohol, Aqua ",
         shades: null,
         reviews: [
@@ -440,7 +440,7 @@ const mockProductData = [
         rating: 4.8,
         category: "fragrances",
         description: "An spicy perfume with floral.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id21.jpg",
         ingredients: "Ethyl alcohol, Aqua ",
         shades: null,
         reviews: [
@@ -458,7 +458,7 @@ const mockProductData = [
         rating: 3.8,
         category: "fragrances",
         description: "A golden sand and star perfume ,long lasting.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id22.jpg",
         ingredients: "Ethyl alcohol, Aqua ",
         shades: null,
         reviews: [
@@ -476,7 +476,7 @@ const mockProductData = [
         rating: 4.1,
         category: "fragrances",
         description: "An exotic perfume with floral and woody notes.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id23.jpg",
         ingredients: "Ethyl alcohol, Aqua ",
         shades: null,
         reviews: [
@@ -494,7 +494,7 @@ const mockProductData = [
         rating: 3.8,
         category: "fragrances",
         description: "An exotic perfume with floral and woody notes.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id24.jpg",
         ingredients: "Ethyl alcohol, Aqua ",
         shades: null,
         reviews: [
@@ -512,7 +512,7 @@ const mockProductData = [
         rating: 4.3,
         category: "fragrances",
         description: "An exotic perfume with floral and woody notes.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id25.jpg",
         ingredients: "Ethyl alcohol, Aqua ",
         shades: null,
         reviews: [
@@ -530,7 +530,7 @@ const mockProductData = [
         rating: 4.4,
         category: "fragrances",
         description: "An exotic perfume with floral and woody notes.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id26.jpg",
         ingredients: "Ethyl alcohol, Aqua ",
         shades: null,
         reviews: [
@@ -548,7 +548,7 @@ const mockProductData = [
         rating: 3.8,
         category: "haircare",
         description: "Moisturize ,hydrate, curl defines ,reduces frizz.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id27.jpg0",
         ingredients: "Silicon,No sulphate,paraben",
         shades: null,
         reviews: [
@@ -566,7 +566,7 @@ const mockProductData = [
         rating: 4.0,
         category: "haircare",
         description: "Pre shampoo treatment,reduces drandruff.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id28.jpg",
         ingredients: "Silicon,No sulphate,paraben",
         shades: null,
         reviews: [
@@ -584,7 +584,7 @@ const mockProductData = [
         rating: 4.1,
         category: "haircare",
         description: "Moisturize ,hydrate, curl defines ,reduces frizz.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id29.jpg",
         ingredients: "Silicon,No sulphate,paraben",
         shades: null,
         reviews: [
@@ -602,7 +602,7 @@ const mockProductData = [
         rating: 4.8,
         category: "haircare",
         description: "Moisturize ,hydrate, curl defines ,reduces frizz.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id30.jpg",
         ingredients: "Silicon,No sulphate,paraben",
         shades: null,
         reviews: [
@@ -620,7 +620,7 @@ const mockProductData = [
         rating: 4.3,
         category: "haircare",
         description: "Moisturize ,hydrate, curl defines ,reduces frizz.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id31.jpg",
         ingredients: "Argon oil ,Vitamin-E",
         shades: null,
         reviews: [
@@ -638,7 +638,7 @@ const mockProductData = [
         rating: 4.3,
         category: "haircare",
         description: "Moisturize ,hydrate skin, promotes hair growth.",
-        image: "https://via.placeholder.com/150",
+        image: "./assets/images/id32.jpg",
         ingredients: "Argon oil ,Vitamin-E",
         shades: null,
         reviews: [
@@ -657,7 +657,7 @@ const mockProductData = [
         rating: 4.1,
         category: "makeup",
         description: "Light weight and moisturising,Buildable and flawless coverage.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id33.jpg",
         ingredients: "Almond oil,jojoba oil,Glycerin",
         shades: [,"shade-06","shade-05","shade-04"],
         reviews: [
@@ -680,7 +680,7 @@ const mockProductData = [
         rating: 4.3,
         category: "makeup",
         description: "Light weight and moisturising,Buildable and flawless coverage.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id34.jpg",
         ingredients: "Almond oil,jojoba oil,Glycerin",
         shades: [,"golden-beige","fair Ivory","multicolor"],
         reviews: [
@@ -704,7 +704,7 @@ const mockProductData = [
         rating: 3.9,
         category: "makeup",
         description: "Light weight and moisturising,Buildable and flawless coverage.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id35.jpg",
         ingredients: "Almond oil,jojoba oil,Glycerin",
         shades: [,"golden-beige","fair Ivory","multicolor"],
         reviews: [
@@ -727,7 +727,8 @@ const mockProductData = [
         rating: 4.6,
         category: "makeup",
         description: "Light weight and moisturising,Buildable and flawless coverage.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id36.jpg",
+        
         ingredients: "Almond oil,jojoba oil,Glycerin",
         shades: [,"golden-beige","fair Ivory","multicolor"],
         reviews: [
@@ -743,14 +744,14 @@ const mockProductData = [
             }
         ]
     },{
-        id: 36,
+        id: 37,
         name: " Foundation",
         brand: "FIT-ME",
         price: 250.00,
         rating: 4.6,
         category: "makeup",
         description: "Light weight and moisturising,Buildable and flawless coverage.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id37.jpg",
         ingredients: "Almond oil,jojoba oil,Glycerin",
         shades: [,"golden-beige","fair Ivory","multicolor"],
         reviews: [
@@ -773,7 +774,7 @@ const mockProductData = [
         rating: 4.1,
         category:"makeup",
         description: "Sunscren for oily skin,Non greasy,no white cast.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/gh-best-skincare-products-6557978b58b57.png?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        image: "./assets/images/id38.jpg",
         ingredients: "Almond oil,jojoba oil,Glycerin",
         shades: ["Aqua","glycerine"," cetearyl olivate"],
         reviews: [
