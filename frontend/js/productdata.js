@@ -1,8 +1,9 @@
 const heroimagesource =[
  "https://www.simpleskincare.in/cdn/shop/collections/Collection-page_SKIN-BARRIER-CARE_54929afb-54c5-4edc-83ae-3e8e93153ba4_1200x400.jpg?v=1721714285", // Replace with your image URL
-    "https://www.simpleskincare.in/cdn/shop/collections/1743a16edc1a--Serums-GIF_1200x400.gif?v=1721713624",
-    "https://www.simpleskincare.in/cdn/shop/files/New_user_banner_1300x_300_Desktop_1.jpg?v=1719471193",
-    "https://www.nutriglowcosmetics.com/wp-content/uploads/2023/08/How-natural-skincare-products-can-benefit-you-in-long-term.jpg"
+ "https://cdn.vectorstock.com/i/500p/42/39/colorstay-make-up-in-elegant-packaging-vector-13524239.jpg",   
+ "https://www.simpleskincare.in/cdn/shop/collections/1743a16edc1a--Serums-GIF_1200x400.gif?v=1721713624",
+    "https://www.maybelline.com/-/media/project/loreal/brand-sites/mny/americas/us/homepage/product-carousel/holiday/2024/maybelline-holiday-2024-hp-banner-2160x810.jpg?rev=6948247c3a664467a551a3dcb363f21c&cx=0.25&cy=0.31&cw=1440&ch=540&hash=AB83837D15B7BE976FF5F70380741CCB",
+    "https://st2.depositphotos.com/4675619/9870/v/950/depositphotos_98708142-stock-illustration-banner-for-the-sale-of.jpg"
 ]
 const mockProductData = [
     {
